@@ -1,19 +1,5 @@
 # 0x00. Python - Variable Annotations
 
-PythonBack-end
-
--   Weight: 1
--   Project over - took place from Aug 1, 2024 6:00 AM to Aug 2, 2024 6:00 AM
--   An auto review will be launched at the deadline
-
-#### In a nutshell…
-
--   **Auto QA review:** 0.0/53 mandatory & 0.0/10 optional
--   **Altogether:**  **0.0%**
-    -   Mandatory: 0.0%
-    -   Optional: 0.0%
-    -   Calculation:  0.0% + (0.0% \* 0.0%)  == **0.0%**
-
 ### Concepts
 
 _For this project, we expect you to look at this concept:_
