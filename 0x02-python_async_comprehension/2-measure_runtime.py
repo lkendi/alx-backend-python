@@ -2,8 +2,8 @@
 """
 Measure runtime module
 """
-from typing import List
 from time import time
+import asyncio
 
 
 async_comprehension = __import__('1-async_comprehension').async_comprehension
@@ -19,6 +19,6 @@ async def measure_runtime() -> float:
         float: The total runtime
     """
     start = time()
-    await async_comprehension()
+    await asyncio.gather(*(async_comprehension() for _ in range(4)))
     end = time()
     return end - start
